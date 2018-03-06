@@ -1,0 +1,125 @@
+html {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+*,
+*::before, 
+*::after {
+     box-sizing: inherit;
+ }
+ .body {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    line-height: 24px;
+ }
+ .wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    
+ }
+ .nav{
+    width: 900px;
+    text-align: center;
+    background-color: rgb(175, 175, 18);
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.header {
+    height: 100px;
+    vertical-align: middle;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.menu-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu-list li {
+    display: inline-block;
+    
+  
+}
+
+.menu-list li:not(:last-child) {
+    margin-right: 120px;
+}
+.menu-list a {
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+} 
+.menu-list a:hover, 
+.menu-list a:focus{
+    color: #de12eb;
+}
+.main-content {
+   text-align: center;
+   width: 900px;
+   margin: 0 auto;
+}
+.main-content-list {
+    margin:0;
+    padding: 0;
+    font-size: 0;
+    margin-bottom: 56px;
+}
+.content-list-item{
+    display: inline-block;
+    width: 420px;
+    text-align: left;
+    margin-right: 60px;
+    margin-bottom: 128px;
+    vertical-align: top;
+   
+}
+.content-list-item:nth-child(2n){
+    margin-right: 0;
+}
+.content-list-item:nth-last-child(-n + 2){
+    margin-bottom: 0;
+}
+.main-content{
+    text-align: center;
+    
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+img + p {
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+h2 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin-bottom: 36px;
+}
+h2 + p {
+    font-size: 14px;
+}
+
+.load-more-button {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 18px;
+    width: 160px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
