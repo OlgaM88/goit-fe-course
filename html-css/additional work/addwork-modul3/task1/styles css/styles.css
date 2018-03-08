@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    
+}
+.menu {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.menu-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu-list a:hover, 
+.menu-list a:focus{
+    color: #1ec43a;
+}
+.menu-list li{
+    display: inline-block;
+}
+.menu-list li:not(:last-child) {
+    margin-right: 50px;
+}
+.menu-list-item a {
+    text-decoration: none;
+    color: rgb(115, 35, 219);
+}
