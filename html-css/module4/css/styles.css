@@ -36,7 +36,6 @@ html {
 }
 .sait-logo {
     display: inline-block;
-    width: 80px;
     font-size: 30px;
     line-height: 32px;
     text-transform: uppercase;
@@ -56,12 +55,8 @@ html {
     padding: 0;
     list-style: none;
     float: right;
-    padding-top: 9px;
-
 }
-.menu-list li:not(:last-child) {
-    margin-right: 30px;
-}
+.menu-list li:not(:last-child) { margin-right: 30px;}
 .menu-list-item a {
     display: block;
     text-decoration: none;
@@ -70,7 +65,7 @@ html {
     color: #0f0101;
     font-family:'MariadPro', sans-serif;
     font-weight: 400;
-    line-height: 17px;
+  /*  line-height: 30px;*/
 
 }
 .menu-list a:hover, 
@@ -78,9 +73,11 @@ html {
     color:#1abc9c;
 }
 .menu-list li {
-float: left;
+    float: left;
+    line-height: 30px;
 }
-.our-products, .news {
+.our-products, 
+.news {
     margin: 0 auto;
     width: 1110px;
 }
@@ -158,22 +155,15 @@ text-align: center;
     float: right;
     background-color: #8c8c8c;
 }
-.list-products:hover li {
+.list-products-item:hover .link {
     background: #1abc9c;
+    display: block;
 }
-.link:hover,
-.link:focus {
-    background-color: #1abc9c;
-  }
-li:hover ul{
-    background: #1abc9c;
-   
+.list-products-item:hover span {
+    background:#7fd9c7;
+    display: block;
 }
-.link>span:hover,
-.link>span:focus,
-.link>span:link{
-    background-color: #7fd9c7;
-}
+
 .our-products {
     margin-bottom: 80px;
 }
@@ -187,7 +177,9 @@ li:hover ul{
 }
 .list-news-item:nth-child(3n){
     margin-right: 0;
-
+}
+.news {
+    margin-bottom: 60px;
 }
 h3 {
     color: #656262;
@@ -229,7 +221,7 @@ h3 + p{
     border: none;
     text-decoration: none;
     display: block;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .load-more>span {
     text-transform: uppercase;
