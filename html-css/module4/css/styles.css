@@ -118,9 +118,6 @@ text-align: center;
     margin: 0 auto;
     max-width: 95%;
     max-height: 95%;
-    cursor: pointer;
-    
-   
 }
 .list-products-item {
     float: left;
@@ -179,7 +176,7 @@ text-align: center;
     margin-right: 0;
 }
 .news {
-    margin-bottom: 60px;
+    padding-bottom: 60px;
 }
 h3 {
     color: #656262;
