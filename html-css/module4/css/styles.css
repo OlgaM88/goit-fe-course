@@ -72,6 +72,8 @@ html {
 .menu-list a:focus{
     color:#1abc9c;
 }
+
+
 .menu-list li {
     float: left;
     line-height: 30px;
