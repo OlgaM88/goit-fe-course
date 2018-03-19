@@ -1,0 +1,321 @@
+html {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+*,
+*::before, 
+*::after {
+     box-sizing: inherit;
+ }
+
+ img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .wrapper {
+    margin: 0 auto;
+ }
+ .header {
+     margin: 0 auto;
+ }
+ .clearfix::after {
+     display: table;
+     content: " ";
+     clear: both;
+ }
+ .nav{
+    margin: 0 auto;
+    padding: 30px 0px;
+    width: 1110px;
+}
+.sait-logo {
+    display: inline-block;
+    width: 80px;
+    font-size: 30px;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    color: #0f0101;
+    border: none;
+}
+.sait-logo::first-letter {
+    color:#1abc9c;
+    font-weight: bold;
+}
+.menu-list {
+    width: 490px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+    margin-top: 8px;
+
+}
+.menu-list li:not(:last-child) {
+    margin-right: 30px;
+}
+.menu-list-item a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #0f0101;
+    font-family:'MariadPro', sans-serif;
+    font-weight: 400;
+    line-height: 17px;
+
+}
+.menu-list a:hover, 
+.menu-list a:focus{
+    color:#1abc9c;
+}
+.menu-list li {
+float: left;
+}
+.slider {
+    position: relative;
+    width: 100%;
+    min-height: 594px;
+    background: black;
+}
+.slides {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.slides img {
+opacity: 0.5;
+background-size: contain; 
+height: 594px;
+object-fit: cover;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    border: none;
+    width: 105px;
+    height: 105px;
+    background: #55a290;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.btn-prev{
+    left: 15px;
+    background-image: url("../images/img-btn-prev.png");
+   } 
+.btn-next{
+    right: 15px;
+    background-image: url("../images/img-btn-next.png");
+}
+.slides-item {
+    position: relative;
+}
+.slides-title {
+    font-size: 60px;
+    font-weight: 900;
+    color:#fff;
+    text-transform: uppercase;
+    font-family:'Roboto', sans-serif;
+    font-size: 60px;
+    line-height: 82px;
+}
+h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-family:'Roboto', sans-serif;
+    font-weight: 300;  
+}
+.slides-content {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 730px;
+    height: 107px;
+}
+.new-collection {
+    margin: 0 auto;
+    background: #e9f0fd;
+    padding-bottom: 100px;
+}
+.new-collection h2 {
+    padding-top: 90px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    color: #515151;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 900;
+    font-family:'Roboto', sans-serif;
+}
+.new-collection h2::after{
+    display: block;
+    content: "";
+    margin: 0 auto;
+    background-color:#1abc9c;
+    width: 160px;
+    height: 7px;
+    margin-top: 31px;
+}
+.collection-list {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 1170px; 
+}
+.collection-list-item {
+    position: relative;
+    float: left;
+    width: 255px;
+    margin-right: 30px;
+    background: #fff;
+}
+.collection-list-item (4n){
+    margin-right: 0;
+}
+.collection-list-item img {
+background-size: contain; 
+height: 285px;
+width: 100%;
+object-fit: cover;
+}
+.collection-list-item a {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    background-color: #323232;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 900;
+    padding-left: 12px;
+    font-family:'Roboto', sans-serif;
+}
+a span {
+    width: 55px;
+    text-align: center;
+    float: right;
+    background-color: #8c8c8c;
+}
+.collection-list-item:hover .link {
+    background: #1abc9c;
+    display: block;
+}
+.collection-list-item:hover .priсe-item {
+    background:#7fd9c7;
+    display: block;
+}
+footer {
+    height: 88px;
+    background: #323232;
+}
+.footer-content {
+    width: 395px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+    padding-top: 30px;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-content span{
+    color: #135543;
+}
+.overlay{
+    position: absolute;
+    width: 238px;
+    height: 262px;
+    background-color: #737373;
+    top: 12px;
+    left: 10px;
+    opacity: 0;
+}
+.collection-list-item:hover .overlay {
+    opacity: 0.7;
+}
+.icon-list{
+    list-style:none;
+    position: absolute;
+    top: 80px;
+    left: 35px;
+    
+}
+.icon-list-item {
+    display: inline-block;
+    
+}
+.icon-list li:not(:last-child) {
+    margin-right: 8px;
+}
+.icon-list a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+.icon-list a:hover{
+    background-color: #1abc9c;
+}
+.icon-like {
+    background-image: url("../images/icon-like.png");
+}
+.icon-exchange {
+    background-image: url("../images/icon-exchange.png");
+} 
+.icon-time {
+    background-image: url("../images/icon-time.png");
+}
+.button {
+    position: absolute;
+    width: 173px;
+    height: 50px;
+    border: 1px solid #fff;
+    top: 137px;
+    left: 35px;
+    background-color:#323232;
+    line-height: 50px;
+    display: inline-block;
+    width: 173px;
+    height: 50px;
+    font-size: 14px;
+    line-height: 32px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 50px;
+    color: #fff;
+}
+
+.button::before {
+    display: inline-block;
+    position: absolute;
+    content: " ";
+    background-image: url("../images/icon-basket.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    left: 0;
+}
+.button span {
+    display: inline-block;
+    float: right;
+    padding-right: 20px;
+}
