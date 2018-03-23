@@ -123,11 +123,9 @@ opacity: 1;
     border: none;
     width: 105px;
     height: 105px;
-    background-color:#1abc9c ;
+    background-color:rgba(26, 188, 156, 0.6) ;
     background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.6;
-   
+    background-position: center; 
 }
 .slider-btn:hover {
     background-color: #1abc9c;
@@ -140,6 +138,7 @@ opacity: 1;
 .btn-prev{
     left: 15px;
     background-image: url("../images/img-btn-prev.png");
+  
    } 
 .btn-next{
     right: 15px;
@@ -348,17 +347,18 @@ a span {
 /* --SECTION FOOTER--*/
 
 footer {
-    height: 88px;
     background: #323232;
 }
 .footer-content {
-    width: 420px;
+    width: 100%;
+    max-width: 420px;
     margin: 0 auto;
+    text-align: center;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
     color: #fff;
-    padding-top: 30px;
+    padding: 28px 0px;
     text-transform: capitalize;
     font-family: 'Open Sans', sans-serif;
 }
