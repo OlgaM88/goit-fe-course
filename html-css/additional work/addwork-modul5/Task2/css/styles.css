@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+*,
+*::before, 
+*::after {
+     box-sizing: inherit;
+ }
+ body {
+     background: rgb(231, 225, 217);
+ }
+ .main-block {
+     position: relative;
+     width: 400px;
+     height: 400px;
+     background: #424242;
+     margin: 150px auto;
+     box-shadow: 5px 5px 20px  rgba(88, 2, 70, 0.5);
+ }
+ .block {
+     position: absolute;
+     width: 100px;
+     height: 100px;
+ }
+ .inner1 {
+     top: 0px;
+     left: 0px;
+     background: rgb(104, 7, 72);
+ }
+ .inner2 {
+     top: 0%;
+     left: 50%;
+     transform: translateX(-50%);
+     background: rgb(136, 4, 70);
+ }
+ .inner3 {
+     top: 0%;
+     right: 0%;
+     background: rgb(224, 62, 124);
+ }
+ .inner4 {
+     top: 50%;
+     left: 0%;
+     transform: translateY(-50%);
+     background: rgb(148, 5, 5);
+ }
+ .inner5 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(192, 4, 4);
+}
+.inner6 {
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+    background: rgb(245, 105, 105);
+}
+.inner7 {
+    bottom: 0%;
+    left: 0%;
+    background: rgb(77, 5, 87);
+}
+.inner8 {
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(133, 10, 150);
+}
+.inner9 {
+    bottom: 0%;
+    right: 0%;
+    background: rgb(241, 170, 230);
+}
