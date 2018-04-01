@@ -111,6 +111,7 @@ html {
 }
 .title-description{
     display: block;
+    margin: 0 auto;
     text-align: center;
     font-family: 'Open Sans';
     font-size: 16px;
@@ -118,9 +119,10 @@ html {
     font-style: italic;
     line-height: 19px;
     color: #838383;
+    
 }
 .services-list {
-    margin-top: 50px;
+    margin-top: 75px;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -168,7 +170,7 @@ html {
 .contact-us {
     background-color: #222222;
     background-image:  url('../images/image-map.png');
-    background-position: 90% 88%;
+    background-position: 90% 89%;
     background-repeat: no-repeat;
     padding-bottom: 115px;
 }
@@ -186,6 +188,7 @@ html {
     width: 100%;
     max-width: 940px;
     margin: 0 auto;
+    margin-top: 75px;
     text-align: center;
 }
 .user-data{
