@@ -112,17 +112,16 @@ html {
 .title-description{
     display: block;
     margin: 0 auto;
+    margin-bottom: 75px;
     text-align: center;
     font-family: 'Open Sans';
     font-size: 16px;
     font-weight: 400;
     font-style: italic;
     line-height: 19px;
-    color: #838383;
-    
+    color: #838383;  
 }
 .services-list {
-    margin-top: 75px;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -143,8 +142,7 @@ html {
     border-radius: 50%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    margin-bottom: 30px;
-   
+    margin-bottom: 30px; 
 }
 .icon-basket::before {
     background-image: url("../images/icon/icon-basket.png");
@@ -182,13 +180,12 @@ html {
     padding-top: 100px;
 }
 .title-description {
-    margin-bottom: 36px;
+    
 }
 .user-form {
     width: 100%;
     max-width: 940px;
     margin: 0 auto;
-    margin-top: 75px;
     text-align: center;
 }
 .user-data{
