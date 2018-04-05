@@ -1,0 +1,71 @@
+html {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+*,
+*::before, 
+*::after {
+     box-sizing: inherit;
+ }
+ body{
+     font-size: 14px;
+     font-family:'Montserrat', sans-serif;
+     color: #2f4f4f;
+ }
+ img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    
+  }
+  .card{
+      width: 240px;
+      margin: 0 auto;
+      margin-top: 150px;
+      border: 2px solid rgba(247, 11, 148, 0.502);
+      box-shadow: 0 0 10px rgba(0,0,255,0.5);
+      text-align: center;
+      padding-bottom: 20px;
+    
+      }
+      .name {
+      margin-bottom: 10px;
+      transition: color 0.2s, transform 0.3s;
+      }
+      p {
+          margin-bottom: 20px;
+      }
+      .btn-like{
+          width: 100px;
+          background-color: rgb(63, 210, 236);
+          color: #2f4f4f;
+          font-size: 14px;
+          font-weight: 700;
+          text-transform: uppercase;
+          border: none;
+          line-height: 25px;
+          transition: width 0.2s,background-color 0.3s;            
+      }
+      .card:hover{
+        box-shadow: 0 20px 20px rgba(0,0,255,0.5);
+        transition-duration: 1s;
+      }
+      img:hover {
+          transform: rotateZ(5deg);
+          transition-duration: 0.2s;
+      }
+    .name:hover{
+              transform: scale(1.15);
+              cursor: pointer;
+              color: rgb(247, 11, 148);         
+      }
+      .btn-like:hover{
+          background-color: rgb(247, 11, 148);
+          cursor: pointer;
+          width: 200px;
+          color: white;
+      }
