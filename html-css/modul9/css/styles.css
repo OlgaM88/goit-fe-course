@@ -182,9 +182,6 @@ html {
     .header-wrapper .row {
       margin-bottom: 35px;
     }
-   /* .nav {
-      justify-content: center;
-    }*/
     .main-title{
        max-width: 292px;
        font-size: 30px;
@@ -221,7 +218,7 @@ html {
     height: 100%;
     margin-bottom: 75px;
   }
-  .header-wrapper .row {
+  .nav-section .row {
     margin-bottom: 125px;
     padding-top: 20px;
   }
@@ -247,7 +244,7 @@ html {
 .main-section{
   padding-bottom: 38px;
 }
-.main-section h2{
+.main-section-title{
   margin-bottom: 30px;
 }
 .people-list{
@@ -275,7 +272,7 @@ html {
   height: 100%;
   margin-bottom: 70px;
 }
-.header-wrapper .row {
+.nav-section .row {
   margin-bottom: 135px;
   padding-top: 20px;
 }
