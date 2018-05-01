@@ -1,0 +1,13 @@
+.header__btn{
+    display: block;
+    width: 160px;
+    margin: 0 auto;
+    background: transparent;
+    border: 3px solid white;
+    text-transform: uppercase;
+    font-family: $primary-font;
+    font-weight: bold;
+    font-size: $main-font-size;
+    line-height: 33px;
+    color: #fff;
+}

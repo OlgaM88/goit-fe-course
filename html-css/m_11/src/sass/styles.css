@@ -27,15 +27,13 @@ html {
       margin: 0;
       padding: 0;
       list-style:none;
-      
   }
   .section {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
   }
-  .services__list,
-  .team__list {
+  .section__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -49,7 +47,7 @@ html {
         width: 100%;
         min-height: 1000px;
         height: 100%;
-        background-image: url("../image/bg-image.jpg");
+        background-image: url("../img/bg-image.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top;
@@ -58,7 +56,7 @@ html {
       }  
       @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
         .box {
-          background-image: url("../image/bg-image@2x.jpg") no-repeat;
+          background-image: url("../img/bg-image@2x.jpg") no-repeat;
         }
     }
    .wrapper-overlay{
@@ -78,8 +76,8 @@ html {
       width: 100%;
       margin: 0 auto;
       margin-bottom: 100px;
-
   }
+
   .header__text{
     text-align: center;
     font-family: 'Kaushan Script', cursive;
@@ -93,7 +91,7 @@ html {
       background: transparent;
       border: 3px solid white;
       text-transform: uppercase;
-      font-family:'Montserrat', sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-weight: bold;
       font-size: 14px;
       line-height: 33px;
@@ -117,12 +115,12 @@ html {
   .site-navigation{
     width: 490px;
     height: 36px;
-    margin:0;
+    margin: 0;
   }
   .sait-logo {
       font-size: 30px;
       line-height: 36px;
-      font-family:'Montserrat', sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-weight: bold;
       text-decoration: none;
       color: #95e1d3;
@@ -151,7 +149,7 @@ html {
       color: #fce38a;
       border-bottom: 3px solid #fce38a;
 }
-/* SECTION OUR-SERVICES*/
+   /* SECTION OUR-SERVICES*/
 
 .services{
         margin-bottom: 95px;
@@ -177,12 +175,12 @@ html {
     display: block;
     content: "";
     margin: 0 auto;
-    background-color:#f38181;
+    background-color: #f38181;
     width: 60px;
     height: 3px;
     margin-top: 31px;
 }
-.services__list {
+.section__list {
     width: 100%;
     max-width: 1180px;
     margin: 0 auto;
@@ -228,7 +226,7 @@ html {
     max-width: 300px;
 }
 .services__item-title {
-   font-family:'Montserrat', sans-serif;
+   font-family: 'Montserrat', sans-serif;
    font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 14px;
@@ -243,10 +241,8 @@ html {
 }
 
 /*  SECTION OUR-TEAM  */
-.team {
-    padding-bottom: 63px;
-}
-.section__post {
+
+.team__post {
     font-family: 'Roboto', sans-serif;
     font-family: 400;
     font-size: 15px;
@@ -254,6 +250,9 @@ html {
     line-height: 24px;
     text-align: center;
     margin-bottom: 90px;
+}
+.team__list{
+    margin-top: 90px;
 }
 .team__item {
     position: relative;
@@ -289,6 +288,7 @@ html {
      color: #b6b6b6;
      text-align: center;
  }
+ 
  .team__overlay{
     position: absolute;
     width: 379px;
@@ -370,7 +370,7 @@ html {
       fill: #f38181;
   }
   .socials__link:hover .socials__icon{
-    fill:  #fff;
+    fill: #fff;
   }
 
   .team__item:hover .socials {
@@ -397,7 +397,7 @@ html {
      font-family: 'Montserrat', sans-serif;
      color: #333333;
   }
-  .footer__span{
+  .footer-content>span{
       color: #f38181;
   }
   .form{
@@ -411,7 +411,7 @@ html {
       line-height: 38px;
       border: 1px solid #dddddd;
       font-family: 'Roboto', sans-serif;
-      color:#d6d6d6;
+      color: #d6d6d6;
       font-weight: light;
       font-style: italic;
       font-size: 15px;
@@ -420,7 +420,6 @@ html {
       border: none;
       width: 150px;
       height: 40px;
-      font-size: 14px;
       font-family: 'Montserrat', sans-serif;
       font-weight: 700;
       text-transform: uppercase;

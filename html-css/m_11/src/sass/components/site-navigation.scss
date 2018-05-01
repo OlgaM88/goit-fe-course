@@ -1,0 +1,27 @@
+.site-navigation{
+    width: 490px;
+    height: 36px;
+    margin:0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .site-navigation__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 10px 0;
+    -webkit-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    transition: 0.2s linear;
+  
+ &:hover{
+      color: #fce38a;
+      border-bottom: 3px solid #fce38a;
+}
+  }

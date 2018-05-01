@@ -27,15 +27,13 @@ html {
       margin: 0;
       padding: 0;
       list-style:none;
-      
   }
   .section {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
   }
-  .services__list,
-  .team__list {
+  .section__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -114,7 +112,7 @@ html {
     margin: 0 auto;
     margin-bottom: 125px;
 }
-  .site-navigation{
+  .page-nav__site-navigation{
     width: 490px;
     height: 36px;
     margin:0;
@@ -243,9 +241,7 @@ html {
 }
 
 /*  SECTION OUR-TEAM  */
-.team {
-    padding-bottom: 63px;
-}
+
 .section__post {
     font-family: 'Roboto', sans-serif;
     font-family: 400;
@@ -254,6 +250,9 @@ html {
     line-height: 24px;
     text-align: center;
     margin-bottom: 90px;
+}
+.team__list{
+    margin-top: 90px;
 }
 .team__item {
     position: relative;
@@ -397,7 +396,7 @@ html {
      font-family: 'Montserrat', sans-serif;
      color: #333333;
   }
-  .footer__span{
+  .footer-content>span{
       color: #f38181;
   }
   .form{
@@ -420,7 +419,6 @@ html {
       border: none;
       width: 150px;
       height: 40px;
-      font-size: 14px;
       font-family: 'Montserrat', sans-serif;
       font-weight: 700;
       text-transform: uppercase;

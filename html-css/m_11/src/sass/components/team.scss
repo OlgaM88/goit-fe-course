@@ -1,0 +1,98 @@
+.team__post {
+    font-family: 'Roboto', sans-serif;
+    font-family: 400;
+    font-size: 15px;
+    color: #b6b6b6;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.team__list {
+    margin-top: 90px;
+}
+.team__item {
+    position: relative;
+
+    &:hover .socials {
+        opacity: 1;
+    }
+    &:hover .team__overlay{
+        -webkit-transform: translate(-10px, -10px);
+            -ms-transform: translate(-10px, -10px);
+                transform: translate(-10px, -10px);
+    }
+
+    &:hover .team__overlay-block{
+        opacity: 0.8;
+       } 
+}
+ .team__underlay{
+     width: 379px;
+     height: 468px;
+     background-color: #95e1d3;
+     z-index: 0;
+ }
+
+  .team__item-img{
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+   } 
+
+ .team__item-name {
+     font-size: 14px;
+     text-transform: uppercase;
+     color: #333333;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 400;
+     margin-top: 30px;
+     text-align: center;
+     margin-bottom: 12px;
+ }
+
+ .team__item-position {
+     font-size: 15px;
+     line-height: 24px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: light;
+     font-style: italic;
+     color: #b6b6b6;
+     text-align: center;
+ }
+ 
+ .team__overlay{
+    position: absolute;
+    width: 379px;
+    height: 468px;
+    top: 0;
+    left: 0;
+    -webkit-transition: 0.5s linear;
+    -o-transition: 0.5s linear;
+    transition: 0.5s linear;
+}
+
+.team__overlay-block{
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 380px;
+    height: 470px;
+    top: 0;
+    left: 0;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(238, 138, 137)), to(rgb(237, 213, 135)));
+    background-image: -webkit-linear-gradient(top, rgb(238, 138, 137), rgb(237, 213, 135));
+    background-image: -o-linear-gradient(top, rgb(238, 138, 137), rgb(237, 213, 135));
+    background-image: linear-gradient(to bottom, rgb(238, 138, 137), rgb(237, 213, 135));
+    opacity: 0;
+    z-index: 2;
+    -webkit-transition: 0.7s linear;
+    -o-transition: 0.7s linear;
+    transition: 0.7s linear;
+ }
+
+  

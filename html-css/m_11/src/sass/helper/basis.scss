@@ -1,0 +1,12 @@
+html { box-sizing: border-box;
+}
+
+* {  margin: 0;  padding: 0;
+}
+
+*, *::before, *::after {  box-sizing: inherit;
+}
+
+body{ font-size: $main-font-size;}
+
+img{  display: block; max-width: 100%; height: auto;}
