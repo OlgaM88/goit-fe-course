@@ -1,15 +1,17 @@
 .team__post {
-    font-family: 'Roboto', sans-serif;
-    font-family: 400;
+    font-family: $secondary-font;
+    font-family: $secondary-normal-font;
     font-size: 15px;
-    color: #b6b6b6;
+    color: $color-light-gray;
     line-height: 24px;
     text-align: center;
     margin-bottom: 90px;
 }
 
 .team__list {
+    @include list-flex($type: 'all');
     margin-top: 90px;
+    padding-bottom: 63px;
 }
 .team__item {
     position: relative;
@@ -30,7 +32,7 @@
  .team__underlay{
      width: 379px;
      height: 468px;
-     background-color: #95e1d3;
+     background-color: $primary-bg-color;
      z-index: 0;
  }
 
@@ -44,11 +46,11 @@
    } 
 
  .team__item-name {
-     font-size: 14px;
+     font-size: $main-font-size;
      text-transform: uppercase;
-     color: #333333;
-     font-family: 'Montserrat', sans-serif;
-     font-weight: 400;
+     color: #$color-dark-gray;
+     font-family: $primary-font;
+     font-weight: $secondary-normal-font;
      margin-top: 30px;
      text-align: center;
      margin-bottom: 12px;
@@ -57,10 +59,10 @@
  .team__item-position {
      font-size: 15px;
      line-height: 24px;
-     font-family: 'Roboto', sans-serif;
+     font-family: $secondary-font;
      font-weight: light;
      font-style: italic;
-     color: #b6b6b6;
+     color: $color-light-gray;
      text-align: center;
  }
  

@@ -357,10 +357,11 @@ html {
         -ms-flex-pack: center;
             justify-content: center;
     background-color: #fce38a;
+  
+      &:hover{
+      background-color: #f38181;
   }
-  .socials__link:hover{
-      background-color:#f38181;
-  }
+}
   .socials__icon{
       display: block;
       width: 100%;

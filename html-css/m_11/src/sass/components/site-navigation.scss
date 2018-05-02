@@ -1,20 +1,16 @@
 .site-navigation{
+    @include list-flex;
     width: 490px;
     height: 36px;
     margin:0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
+   
+}
   .site-navigation__link {
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    color: #ffffff;
+    font-family: $primary-font;
+    font-weight: $secondary-normal-font;
+    color: $color-white;
     padding: 10px 0;
     -webkit-transition: 0.2s linear;
     -o-transition: 0.2s linear;

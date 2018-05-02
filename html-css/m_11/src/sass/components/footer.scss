@@ -1,0 +1,15 @@
+.footer{
+    @include list-flex;
+    width: 100%;
+    max-width: 1200px;
+    border-top: 1px solid #e7e7e7;
+    height: 62px;
+    margin: 0 auto;
+}
+  .footer__content {
+     font-family: $primary-font;
+     color: $color-dark-gray;
+  }
+  .footer__span{
+      color: $main-coral-color;
+  }

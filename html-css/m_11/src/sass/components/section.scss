@@ -1,9 +1,14 @@
-.section { width: 100%; max-width: 1200px; margin: 0 auto;
+.section { 
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto;
 }
 .section__list {
+    @include list-flex($type: 'all');
     width: 100%;
     max-width: 1180px;
     margin: 0 auto;
+
 }
 .section__text {
     display: block;
@@ -14,20 +19,21 @@
     margin-bottom: 17px;
 }
  .section__title {
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+  /*  text-align: center;
+    text-transform: uppercase;*/
+    font-family: $primary-font;
     font-size: 30px;
     line-height: 36px;
-    font-weight: 700;
+    font-weight: $main-bold-font;
     margin-bottom: 60px;
-}
-.section__title::after {
+
+    &::after {
     display: block;
     content: "";
     margin: 0 auto;
-    background-color:#f38181;
+    background-color: $main-coral-color;
     width: 60px;
     height: 3px;
     margin-top: 31px;
 }
+ }

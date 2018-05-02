@@ -1,7 +1,9 @@
 .services{
     margin-bottom: 95px;
 }
-
+.services__list{
+  @include list-flex($type: 'all');
+}
 .services__item {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -47,16 +49,17 @@
     max-width: 300px;
 }
 .services__item-title {
-   font-family:'Montserrat', sans-serif;
-   font-weight: 400;
-    text-transform: uppercase;
+    @extend %title-style;
+    font-family: $primary-font;
+    font-weight: $secondary-normal-font;
     margin-bottom: 14px;
-    color: #333333;
+    color: $color-dark-gray;
+   
 }
 .services__item-text{
-    font-family: 'Roboto', sans-serif;
-    font-family: 400;
+    font-family: $secondary-font;
+    font-family: $secondary-normal-font;
     font-size: 15px;
     line-height: 24px;
-    color: #b6b6b6;
+    color: $color-light-gray;
 }
