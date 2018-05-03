@@ -46,7 +46,7 @@
    } 
 
  .team__item-name {
-     @extends %title-style;
+     @extend %title-style;
      font-size: $main-font-size;
      color: $color-dark-gray;
      font-family: $primary-font;

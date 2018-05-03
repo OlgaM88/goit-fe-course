@@ -49,7 +49,7 @@
     max-width: 300px;
 }
 .services__item-title {
-    @extend %title-style;
+    text-transform: uppercase;
     font-family: $primary-font;
     font-weight: $secondary-normal-font;
     margin-bottom: 14px;
