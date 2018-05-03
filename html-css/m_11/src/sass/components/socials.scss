@@ -14,7 +14,10 @@
      margin-right: 1px;
  }
  .socials__link {
-   @include list-flex;
+   @include list-flex('ver');
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
     width: 55px;
     height: 55px;
     background-color: #fce38a;
