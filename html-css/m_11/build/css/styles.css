@@ -21,8 +21,8 @@
 
 .site-navigation,
 .services__list,
-.socials,
-.team__list {
+.team__list,
+.socials {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -640,47 +640,6 @@ img {
   color: #b6b6b6;
 }
 
-.socials {
-  display: flex;
-  position: absolute;
-  top: 210px;
-  left: 78px;
-  z-index: 3;
-  width: 100px;
-  height: 200px;
-  opacity: 0;
-}
-
-.socials__item {
-  margin-right: 1px;
-}
-
-.socials__link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 55px;
-  height: 55px;
-  background-color: #fce38a;
-}
-
-.socials__link:hover {
-  background-color: #f38181;
-}
-
-.socials__link:hover .socials__icon {
-  fill: #fff;
-}
-
-.socials__icon {
-  display: block;
-  width: 100%;
-  height: 100%;
-  width: 38px;
-  height: 32px;
-  fill: #f38181;
-}
-
 .team__post {
   font-family: "Roboto", sans-serif;
   font-family: 400;
@@ -772,6 +731,47 @@ img {
   opacity: 0;
   z-index: 2;
   transition: 0.7s linear;
+}
+
+.socials {
+  display: flex;
+  position: absolute;
+  top: 210px;
+  left: 78px;
+  z-index: 3;
+  width: 100px;
+  height: 200px;
+  opacity: 0;
+}
+
+.socials__item {
+  margin-right: 1px;
+}
+
+.socials__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 55px;
+  background-color: #fce38a;
+}
+
+.socials__link:hover {
+  background-color: #f38181;
+}
+
+.socials__link:hover .socials__icon {
+  fill: #fff;
+}
+
+.socials__icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  width: 38px;
+  height: 32px;
+  fill: #f38181;
 }
 
 .socials {

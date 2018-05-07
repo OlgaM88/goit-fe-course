@@ -45,8 +45,8 @@
    &--image::before{
     background-image: url('../../img/icon-images/image-min.png');
   }  
- }
  
+}
  &__item-post {
     max-width: 300px;
 }
@@ -68,46 +68,3 @@
 }
   
 }
-.socials{
-    @extend %list;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    top: 210px;
-    left: 78px;
-    z-index: 3;
-    width: 100px;
-    height: 200px;
-    opacity: 0;
-
-    &__item  {
-     margin-right: 1px;
- }
-
-    &__link {
-   @include list-flex('ver');
-   -webkit-box-pack: center;
-       -ms-flex-pack: center;
-           justify-content: center;
-    width: 55px;
-    height: 55px;
-    background-color: #fce38a;
-   
-       &:hover{
-         background-color: $main-coral-color;
-  }
-       &:hover .socials__icon{
-          fill: $color-white;
-  }
-}
-   &__icon{
-      display: block;
-      width: 100%;
-      height: 100%;
-      width: 38px;
-      height: 32px;
-      fill: $main-coral-color;
-  }
-}
- 
