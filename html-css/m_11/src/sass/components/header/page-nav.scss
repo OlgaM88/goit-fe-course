@@ -1,0 +1,40 @@
+.page-nav {
+    @include list-flex;
+    min-height: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 125px;
+}
+
+.sait-logo {
+    @extend %link;
+    font-size: 30px;
+    line-height: 36px;
+    font-family: $primary-font;
+    font-weight: $main-bold-font;
+    border: none;  
+}
+.site-navigation{
+    @include list-flex;
+    @extend %list;
+    width: 490px;
+    height: 36px;
+    margin:0;
+   
+   &__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $primary-font;
+    font-weight: $secondary-normal-font;
+    color: $color-white;
+    padding: 10px 0;
+    -webkit-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    transition: 0.2s linear;
+  
+ &:hover{
+      color: #fce38a;
+      border-bottom: 3px solid #fce38a;
+   }
+  }
+}

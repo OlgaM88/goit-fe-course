@@ -1,4 +1,5 @@
 .sait-logo {
+    @extend %link;
     font-size: 30px;
     line-height: 36px;
     font-family: $primary-font;

@@ -2,37 +2,38 @@
     width: 100%; 
     max-width: 1200px; 
     margin: 0 auto;
-}
-.section__list {
+
+  &__list {
     @include list-flex($type: 'all');
     width: 100%;
     max-width: 1180px;
     margin: 0 auto;
 
-}
-.section__text {
+ }
+  &__text {
     display: block;
     text-align: center;
-    font-family: 'Kaushan Script', cursive;;
+    font-family: $accent-text-font;
     font-size: 24px;
     line-height: 29px;
     margin-bottom: 17px;
 }
- .section__title {
+
+  &__title {
     @extend %title-style;
     font-family: $primary-font;
     font-size: 30px;
     line-height: 36px;
     font-weight: $main-bold-font;
     margin-bottom: 60px;
-
-    &::after {
-    display: block;
-    content: "";
-    margin: 0 auto;
-    background-color: $main-coral-color;
-    width: 60px;
-    height: 3px;
-    margin-top: 31px;
-}
+  
+       &::after {
+         @extend %block;
+         content: "";
+         background-color: $main-coral-color;
+         width: 60px;
+         height: 3px;
+         margin-top: 31px;
+       }
+   }
  }

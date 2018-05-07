@@ -1,11 +1,11 @@
 .site-navigation{
     @include list-flex;
+    @extend %list;
     width: 490px;
     height: 36px;
     margin:0;
    
-}
-  .site-navigation__link {
+   &__link {
     text-decoration: none;
     text-transform: uppercase;
     font-family: $primary-font;
@@ -19,5 +19,6 @@
  &:hover{
       color: #fce38a;
       border-bottom: 3px solid #fce38a;
-}
+   }
   }
+}

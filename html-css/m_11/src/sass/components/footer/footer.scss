@@ -1,0 +1,42 @@
+.footer{
+    @include list-flex;
+    width: 100%;
+    max-width: 1200px;
+    border-top: 1px solid #e7e7e7;
+    height: 62px;
+    margin: 0 auto;
+
+   &__content {
+     font-family: $primary-font;
+     color: $color-dark-gray;
+  
+   &__span{
+      color: $main-coral-color;
+  }
+ }
+}
+.form{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0; 
+
+ &__input{
+    width: 230px;
+    line-height: 38px;
+    border: 1px solid #dddddd;
+    font-family: $secondary-font;
+    color: #d6d6d6;
+    font-weight: light;
+    font-style: italic;
+    font-size: 15px;
+ }
+ 
+&__button {
+    @extend %btn-style;
+    border: none;
+    width: 150px;
+    height: 40px;
+    background-color: $primary-bg-color;
+}
+}

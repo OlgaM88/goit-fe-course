@@ -1,4 +1,5 @@
 .socials{
+    @extend %list;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -9,11 +10,12 @@
     width: 100px;
     height: 200px;
     opacity: 0;
-}
- .socials__item  {
+
+    &__item  {
      margin-right: 1px;
  }
- .socials__link {
+
+    &__link {
    @include list-flex('ver');
    -webkit-box-pack: center;
        -ms-flex-pack: center;
@@ -21,16 +23,15 @@
     width: 55px;
     height: 55px;
     background-color: #fce38a;
-
-     &:hover{
-      background-color: $main-coral-color;
+   
+       &:hover{
+         background-color: $main-coral-color;
   }
-     &:hover .socials__icon{
-    fill: $color-white;
+       &:hover .socials__icon{
+          fill: $color-white;
   }
-  }
-  
-  .socials__icon{
+}
+   &__icon{
       display: block;
       width: 100%;
       height: 100%;
@@ -38,5 +39,5 @@
       height: 32px;
       fill: $main-coral-color;
   }
-  
+}
  

@@ -9,6 +9,21 @@
 
 %title-style{
     text-align: center;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;   
+}
+
+%list {
+    margin: 0;  
+    padding: 0; 
+    list-style: none;
+}
+
+%link {
+    display: inline-block; 
+    text-decoration: none;
+}
+
+%block {
+    display: block;
+    margin: 0 auto;
 }

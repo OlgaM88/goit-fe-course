@@ -1,0 +1,84 @@
+.wrapper{
+    width: 100%;
+    min-height: 1000px;
+    height: 100%;
+    background-image: url("../img/bg-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: $color-white;
+    margin-bottom: 50px;
+  }  
+.wrapper-overlay{
+    background-image: linear-gradient(to bottom, rgba(238, 138, 137, 0.9), rgba(240, 217, 138, 0.9)); 
+    min-height: 1000px;
+    height: 100%;
+}
+.header {
+
+    &__title{
+        @extend %title-style;
+        @extend %block;
+        font-size: 150px;
+        line-height: 150px;
+        font-family: $primary-font;
+        font-weight: $main-bold-font;
+        max-width: 820px;
+        width: 100%;
+        margin-bottom: 100px;    
+    }
+    &__text{
+            text-align: center;
+            font-family: $accent-text-font;
+            font-size: 72px;
+            margin-bottom: 50px; 
+    }
+    &__btn {
+        @extend %btn-style;
+        @extend %block;
+        width: 160px;
+        background: transparent;
+        border: 3px solid $color-white;
+        line-height: 33px;
+    }
+}
+.page-nav {
+    @include list-flex;
+    min-height: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 125px;
+}
+
+.sait-logo {
+    @extend %link;
+    font-size: 30px;
+    line-height: 36px;
+    font-family: $primary-font;
+    font-weight: $main-bold-font;
+    border: none;  
+}
+.site-navigation{
+    @include list-flex;
+    @extend %list;
+    width: 490px;
+    height: 36px;
+    margin:0;
+   
+   &__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $primary-font;
+    font-weight: $secondary-normal-font;
+    color: $color-white;
+    padding: 10px 0;
+    -webkit-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    transition: 0.2s linear;
+  
+ &:hover{
+      color: #fce38a;
+      border-bottom: 3px solid #fce38a;
+   }
+  }
+}
